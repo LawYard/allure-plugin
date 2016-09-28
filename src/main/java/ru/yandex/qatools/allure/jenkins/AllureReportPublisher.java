@@ -143,7 +143,7 @@ public class AllureReportPublisher extends Recorder implements Serializable, Mat
             return true;
         }
 
-        // discover commandline
+        // discover commandline 
         AllureCommandlineInstallation commandline = getDescriptor().
                 getCommandlineInstallation(getConfig().getCommandline());
 
